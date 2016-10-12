@@ -21,7 +21,7 @@ namespace testdatacontext.Controllers
         {
             var orderrs = _orderService.ListOrders();
             var firstorder = orderrs.First();
-            return new string[] {firstorder.OrderNo , "value2" };
+            return new string[] {"hello", "value2" };
         }
 
         // GET api/values/5
